@@ -1,0 +1,104 @@
+				body
+				{
+					clear: both;
+					background-color: #18191B;
+					color: white;
+				}
+				.heading
+				{
+			  	    margin-top: 2em;
+			  	   	text-align: center;
+			  	}
+			  	.btn
+			  	{
+					color: white;
+					text-decoration: none;
+				}
+				.btn:hover
+				{
+      				color: red;
+       			}
+			  	.img1
+			  	{
+			       	padding-right: 0.95em;
+				}
+				.img2
+				{
+					background-image: url("images/main.jpg");
+					background-attachment: fixed;
+					background-repeat: no-repeat;
+					font-size: 2vh;
+					min-height: 100vh;
+					background-size: cover;
+					background-position: center;
+					margin-bottom: 10em;
+					margin-top: -2em;
+					color: black;	
+				}
+				.img3
+				{
+					height: 20em;
+					width: 30em;
+					float: right;
+					margin: 3em 7em 7em 7em;
+					border: 0.7em solid black;
+			  	}
+				.header
+				{
+					display: flex;
+					position: fixed;
+					background-color: black;
+					background: rgba(0,0,0,0.5);
+					width: 100%;
+					padding: 1em;
+				}
+				.logo
+				{
+					display: flex;
+					flex-direction: row;
+					padding: 2.5%;
+					padding-top: 0.5em;
+				}
+				.nav li
+				{
+					display: inline;
+					padding: 2em 2em 2em 7em;
+				}
+				.welcome
+				{
+					text-align: center;
+					font-style: italic;
+					font-size: 2em;
+					margin-top: -3em;
+				}
+				.intro-duction
+				{
+					margin: 3em 5em 5em 8em;
+				}
+				.specialities
+				{
+					clear: both;
+					background-attachment: fixed;
+					background-image: url("images/background.jpg");
+				}
+				.spec
+				{
+					margin-left: 5%;
+					background-color: black;
+					width: 45%;
+				}
+				.box
+				{
+					height: 20em;
+			  		width: 23em;
+			  	}
+				.contact_info
+				{
+					color: red;
+					background-color: black;
+					margin : 0 15% 0 15%;
+					padding: 2em;
+				}
+				.copy-right{
+			   		margin-top: 10em;
+			  	}

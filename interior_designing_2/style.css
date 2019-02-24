@@ -1,0 +1,81 @@
+                    body
+                        {
+                            background-color:#46344E;
+                        }
+                     h1
+                        {
+                            color: black;
+                            font-size: 5em;
+                            background-color: #9D8D8F;
+                            width:51%;
+                            margin-left: 20%;
+                            margin-bottom: -0.5%;
+                            border-radius: 5%
+                        }
+                     h2
+                        {
+                            color:black;
+                            background: #9D8D8F;
+                        }
+                     h3
+                        {
+                            color:yellow;
+                        }
+                     ul li
+                        {
+                            color:yellow;
+                            background-color: #C3073F;
+                        }
+                     p
+                        {
+                            color:#FFFFFF;
+                        }
+                     a
+                        {
+                            color:#0000FF;
+                            text-decoration:none;
+                        }
+                     .btn
+                        {
+                            color:black;
+                            background: #FF0000;
+                            padding:0.6255% 2.5%;
+                            margin:0.625% 0%;
+                            border-radius:35%;
+                        }
+                     .btn:hover
+                        {
+                            background-color:#FFFF99;
+                        }
+                     #copy-right 
+                        {
+                            padding: 0.625% 0%;
+                            margin: 0.625% 0%;
+                            text-align:center;
+                        }
+                    #featured-design img
+                        {
+                            border:0.5em solid #C1250F;
+                            margin-right: 6.25em;
+                        } 
+                    .adjust
+                    	{
+                    		background-color: black;
+                    	}
+                    img:hover 
+                        {
+                            -webkit-transform: scaleX(-1);
+                            transform: scaleX(-1);
+                        }
+                    .blinking
+                        {
+                            animation:blinkingText 1s infinite;
+                        } 
+                    @keyframes blinkingText
+                        {
+                            0%{     color: #000;    }
+                            49%{    color: transparent; }
+                            50%{    color: transparent; }
+                            99%{    color:transparent;  }
+                            100%{   color: #000;    }
+                        }
