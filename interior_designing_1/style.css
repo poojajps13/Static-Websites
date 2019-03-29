@@ -3,6 +3,7 @@
 					clear: both;
 					background-color: #18191B;
 					color: white;
+					width: 100%;
 				}
 				.heading
 				{
@@ -25,12 +26,12 @@
 				.img2
 				{
 					background-image: url("images/main.jpg");
-					background-attachment: fixed;
 					background-repeat: no-repeat;
-					font-size: 2vh;
-					min-height: 100vh;
+					background-attachment: fixed;
 					background-size: cover;
 					background-position: center;
+					font-size: 2vh;
+					min-height: 100vh;
 					margin-bottom: 10em;
 					margin-top: -2em;
 					color: black;	
@@ -62,7 +63,7 @@
 				.nav li
 				{
 					display: inline;
-					padding: 2em 2em 2em 7em;
+					padding: 1em 1em 1em 1em;
 				}
 				.welcome
 				{
@@ -77,9 +78,10 @@
 				}
 				.specialities
 				{
-					clear: both;
-					background-attachment: fixed;
 					background-image: url("images/background.jpg");
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-attachment: fixed;
 				}
 				.spec
 				{
